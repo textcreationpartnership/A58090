@@ -1,0 +1,905 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Religio laici, or, A lay-mans faith touching the supream head and infallible guide of the church : in two letters to a friend in the country / by J. R. a convert of Mr. Bays's.</title>
+            <author>J. R., Convert of Mr. Bays's.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1688</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 61 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58090</idno>
+            <idno type="STC">Wing R30</idno>
+            <idno type="STC">ESTC R16164</idno>
+            <idno type="EEBO-CITATION">13354921</idno>
+            <idno type="OCLC">ocm 13354921</idno>
+            <idno type="VID">99228</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58090)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99228)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 473:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Religio laici, or, A lay-mans faith touching the supream head and infallible guide of the church : in two letters to a friend in the country / by J. R. a convert of Mr. Bays's.</title>
+                  <author>J. R., Convert of Mr. Bays's.</author>
+               </titleStmt>
+               <extent>[4], 28 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Newton ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  Religion --  17th century --  Sources.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:99228:1"/>
+            <pb facs="tcp:99228:1" rendition="simple:additions"/>
+            <p>
+               <hi>RELIGIO LAICI,</hi> OR A Lay-mans Faith, Touching the SUPREAM HEAD AND INFALLIBLE GUIDE OF
+THE CHURCH. In Two Letters to a Friend in the Country.</p>
+            <p>By <hi>J. R.</hi> A Convert of Mr. <hi>Bays</hi>'s.</p>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="license">
+                        <p>Licenſed </p>
+                        <closer>
+                           <dateline>
+                              <date>
+                                 <hi>June</hi> the 1ſt. 1688.</date>
+                           </dateline>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>John Newton,</hi> at three Pigeons over againſt the
+<hi>Inner-Tempe Gate</hi> in <hi>Fleet-ſtreet.</hi> 1688.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:99228:2"/>
+            <pb facs="tcp:99228:2"/>
+            <head>THE AUTHOR TO THE READER.</head>
+            <opener>
+               <salute>Courteous Reader,</salute>
+            </opener>
+            <p>
+               <hi>A</hi> Little before the late King (of ever Bleſſed Me<g ref="char:EOLhyphen"/>mory) dyed, a Poem was
+Publiſhed call'd <hi>Religio Laici,</hi> &amp;c. and not long after another by the ſame Author
+call'd the <hi>Hind and Panther:</hi> Which Pieces (though as oppoſite to one another as Light
+and Darkneſs) fell into an intimate Friends hand of mine, who knowing me a great Admirer of that
+Authors Poems, writ to me to de<g ref="char:EOLhyphen"/>ſire my Judgment, touching the Infallibility of his <hi>Mother
+Hind,</hi> which was the occaſion of the following Letters, which indeed has been long ſince
+writ; and the Reaſons why they were not Publiſhed before are two: The firſt is the ſame
+which a late Reverend Author gave in his Rea<g ref="char:EOLhyphen"/>ſons for taking away the Teſt <hi>(viz.)</hi> They
+were deſign'd for a private uſe: The ſecond was my fear (through a
+<pb facs="tcp:99228:3"/> knowledge of my own Inability) of a good Cauſe ſuf<g ref="char:EOLhyphen"/>fering by the weakneſs of its
+Advocate; but however the Importunity of my Worthy Friend, to whom I writ, did at laſt prevail
+with me to ſend them thus (as we all came) Unpolliſhed into the World. And as you have found
+them (without Prejudice if poſſible) read them, and if you meet with any thing that makes
+amends for the pains I have my End, if not I am ſure you miſs Yours.</p>
+            <closer>
+               <signed>J. R.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="letter">
+            <pb n="1" facs="tcp:99228:3"/>
+            <head>THE FIRST LETTER.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>THE many and never to be forgotten Favours I have receiv'd commands a ready Compliance to your
+Requeſt, of giving you my Opinion touching the Doctrine of Infallibility, ſo univerſally
+receiv'd and believ'd in the Church of <hi>Rome,</hi> though at the ſame time they differ
+amongſt themſelves where to fix this Infallible Guide; ſome are for placing it in a General
+Council, others in his Holineſs and Council together, and a third ſort in the defuſive
+Church, and a fourth in the Perſon of the Pope on<g ref="char:EOLhyphen"/>ly, he being St. <hi>Peter</hi>'s
+Succeſſor, to whom our Saviour gave (as they ſay) the power of the Keys, &amp;c. But however
+though they differ in the Manner, yet they do all agree in the Matter, that ſuch a Convenient
+Doctrine ſhould belong to their Church; and truly I cannot blame them for it, for it is indeed
+the only Rock and Foundation on which all their o<g ref="char:EOLhyphen"/>ther Rubbiſh and Fopperies are built; and the
+Removal of it would be like <hi>Sampſon</hi>'s pulling down the Pillars or main Prop, ſo that
+conſequently the whole Fabrick would fall to to the Ground: But this being a <hi>Herculian</hi>
+work more pro<g ref="char:EOLhyphen"/>per for the fam'd Heroes of our Age <hi>(viz.)</hi> Men of great Parts and Letters, I
+had not ſo much as attempted it, but only, Sir, in obedience to your Command, in doing which 'tis
+poſſible I may put a helping hand toward the removal of
+<pb n="2" facs="tcp:99228:4"/> ſome traſh and trumpery out of the way, whereby others of my own mean Rank
+and Capacity may the better diſcern the weakneſs of this <hi>Babel</hi> Foundation, which has
+made ſuch a Confuſion in the Chriſtian World. And amongſt all the late Learned Pieces in
+Vindication of this <hi>Sovereign Antidote</hi> (viz.) <hi>Infallibility</hi> (for if ſwallow'd,
+it would without doubt exſpel the Poyſon of all the other Peſtilential Doctrins of that
+Church;) none has made a greater noiſe in the World than the laſt, though leaſt unlearn'd
+Piece of the moſt famous cellebrated Author Mr. <hi>Bays</hi> (the new Adopted Champion of the
+<hi>Roman Catholick</hi> Cauſe) by the Name and Title of the <hi>Hind and Panther,</hi> writ in
+the true Dialect and Lan<g ref="char:EOLhyphen"/>guage of the <hi>Beaſt J. D.</hi> in which he proves the neceſſity
+of an Unerring Guide, as plain as a Pike-ſtaff (or rather as De<g ref="char:EOLhyphen"/>monſtrable as
+Tranſubſtantiation is made out, in a late Re<g ref="char:EOLhyphen"/>verend Authors Reaſons for taking away the
+<hi>Teſt</hi>). Now for an Unletter'd Lay-man to ingage with this <hi>Mighty Samp<g ref="char:EOLhyphen"/>ſon</hi> of
+an Author, is as raſh an Undertaking as little <hi>Davids</hi> fighting with <hi>Great
+Goliah</hi> without Armour.</p>
+            <p>But we read (<hi>Eccleſiastes</hi> the 9th. and 11th.) <hi>The Race is not always to the
+ſwift nor the Battel to the ſtrong;</hi> therefore in hopes of being aſſiſted by him
+whoſe Cauſe it is (namely the Lord of Hoſts) through whom <hi>David</hi> not only fought, but
+overcame the <hi>Champion</hi> of the <hi>Philistines,</hi> I enter the Field, and if I periſh I
+periſh; however the attempt of great things is Honourable. And the Method I ſhall take to
+engage this Potent Adverſary, ſhall be firſt to fight him with his own Weapons, and
+diſcharge his own Artillery upon him, <hi>viz.</hi> his own Arguments, when he was (poſſible)
+of another Opinion (I had almoſt ſaid Religion, but I am Inclinable to believe he never had
+any.) Secondly, I ſhall examine thoſe Places of Scripture which the Papiſts do moſt
+inſiſt upon for the Proof of their Infallible Doctrine, &amp;c. but I will begin with the
+firſt, and Arm my ſelf with Mr. <hi>Bays</hi>'s own Armour of Proof that he has formerly
+engag'd with, againſt the Aſſerters of this Doctrine, in a Poem of his call'd <hi>Religio
+<pb n="3" facs="tcp:99228:4"/> Laici:</hi> In the <hi>Preface</hi> of which he has (Page the 4th.) theſe
+words, viz. <hi>For having laid down as a Foundation, that the Scripture is a Rule; that in all
+things needful to Salvation, it is clear, ſufficient, and ordain'd by God Almighty for that
+purpoſe, I have left my ſelf no right to Interpret obſcure Places, becauſe whatſoever is
+obſcure is concluded not neceſſary to be known:</hi> On which, as a Rock, I ſhall (being of
+the ſame Opinion) Erect and build my Faith; and that it may the better hold out a Siege againſt
+the mighty Hoſt of Wild Beaſts, Com<g ref="char:EOLhyphen"/>manded by their Infallible Mother <hi>Hind,</hi> I will
+fortifie it with ſuch ſtrong murdering Morter-peices, (of his own, &amp;c.) that I'le defie all
+his Bears and Boars, his Woolves and Tygers, his Foxes and Aſſes, and Lyons, &amp;c. to
+demoliſh and pull it down. And the firſt is the Caſe which he puts between a
+<hi>Socinian</hi> and them of his own Church; what that was then, you will beſt underſtand from
+his own Arguments, which are (I think) as ſtrong, and he as much Inſpir'd when he writ them, as
+when he writ the (Immortal Milk white) <hi>Hind and Panther;</hi> but be your own Judge <hi>Religio
+Laici,</hi> Page the 20.
+<q>
+                  <l>We hold and prove from Scripture plain</l>
+                  <l>That Christ is God, the bold <hi>Socinian</hi>
+                  </l>
+                  <l>From the ſame Scripture urges he's but Man.</l>
+                  <l>Now what Appeal can end the Important ſuit,</l>
+                  <l>Both parts talk lowdly, but the Rule is mute;</l>
+                  <l>Shall I ſpeak plain, and in a Nation free,</l>
+                  <l>Aſſume an honeſt Lay-mans Liberty?</l>
+               </q> (which I hope is as little a fault now, by
+Virtue of his Ma<g ref="char:EOLhyphen"/>jeſties Gracious Declaration, as it was when <hi>Bays</hi> did it.)</p>
+            <q>
+               <l>I think (According to my little Skill,</l>
+               <l>But to my own Mother Church ſubmitting still)</l>
+               <l>That many have been ſav'd, and many may,</l>
+               <l>That never heard this queſtion brought in play.</l>
+               <l>
+                  <pb n="4" facs="tcp:99228:5"/>The <g ref="char:V">Ʋ</g>nletter'd Christian, that believes in groſs,</l>
+               <l>Plods on to Heaven and nere is at a loſs;</l>
+               <l>For the ſtrait Gate wou'd be made ſtraiter yet,</l>
+               <l>Were none admitted there but Men of Wit.</l>
+            </q>
+            <p>(And Page the 22, 23, and 24.)</p>
+            <q>
+               <l>The partial Papiſt wou'd infer from hence,</l>
+               <l>Their Church in last reſort ſhould judge the Sence:</l>
+               <l>But first they wou'd aſſume with wondrous Art,</l>
+               <l>Themſelves, to be the whole, who are but part</l>
+               <l>Of that vast Frame the Church, but grant they were</l>
+               <l>The Handers down, wou'd they from thence infer</l>
+               <l>A right to Interpret? or wou'd they alone,</l>
+               <l>Who brought the Preſent, claim it for their own?</l>
+               <l>The Book's a common Largis to Mankind,</l>
+               <l>Not more for them than every Man deſign'd.</l>
+               <l>The welcome news is in the Letter found,</l>
+               <l>The Carrier's not Commiſſion'd to expound;</l>
+               <l>It ſpeaks it ſelf, and what it does contain,</l>
+               <l>In all things needful to be known is plain.</l>
+               <l>In times o're grown with Rust and Ignorance,</l>
+               <l>A gainful Trade their Clergy did advance,</l>
+               <l>When want of Learning made the Lay-man low,</l>
+               <l>And none but Priest was Authoriz'd to know;</l>
+               <l>When what ſmall knowledge was, in them did dwell,</l>
+               <l>And he a God that could but read or ſpell;</l>
+               <l>Then Mother Church did mightily prevail,</l>
+               <l>She parcell'd out the Bible by Retail:</l>
+               <l>But still Expounded what ſhe ſold or gave,</l>
+               <l>To keep it in her power to damn or ſave.</l>
+               <l>Scripture was ſcarce, and as the Market went,</l>
+               <l>Poor Lay-men took Salvation on content,</l>
+               <l>As needy Men takes Money: good or bad</l>
+               <l>Gods word they had not, but the Priests they had.</l>
+               <l>
+                  <pb n="5" facs="tcp:99228:5"/>Yet what ere falſe Conveyances they made,</l>
+               <l>The Lawyer still was certain to be paid.</l>
+               <l>In thoſe dark Times they learn'd their knack ſo well,</l>
+               <l>That by long uſe they grew Infallible.</l>
+            </q>
+            <p>A very ſhort but fair and full account how and by what Me<g ref="char:EOLhyphen"/>thods (if they will believe their
+Champion <hi>Bays</hi>) they arriv'd to be the Infallible Church; but he goes on.</p>
+            <q>
+               <l>At last a knowing age began to 'nquire</l>
+               <l>Whether they the Book, or that did them Inſpire;</l>
+               <l>And making narrower ſearch, they found, tho late,</l>
+               <l>That what they thought the Priect's was their Estate;</l>
+               <l>Taught by the will, produc'd the written Word,</l>
+               <l>How long they had been Cheated on Record;</l>
+               <l>Then every Man who ſaw the Title fair,</l>
+               <l>Claims a Childs Part, and puts in for a ſhare;</l>
+               <l>Conſulting ſoberly their private good,</l>
+               <l>So ſav'd themſelves as cheap as e're they cou'd.</l>
+            </q>
+            <p>That is to ſay Good buy Mr. Infallible Indulgences, they did not care to be cheated any longer
+with ſuch a chargable ſort of Doctrine: And now I'll appeal to all unprejudic'd Per<g ref="char:EOLhyphen"/>ſons,
+whether Mr. <hi>Bays</hi> has prov'd the Infallibility of the Church of <hi>Rome</hi> in his Fable
+of the <hi>Hind and Panther,</hi> better than he has the contrary in his (much better Poem)
+<hi>Religio Laici;</hi> but it may be objected he was of another Judgment then, which is eaſily
+granted, and that (poſſible) the ſame Reaſons that prevail'd with him to alter it now,
+might oblige him not to part with it before; for indeed Solomon (which I preſume was as Wiſe a
+Man as Mr. <hi>Bays</hi>) ſays <hi>There is a time for all things;</hi> and though Mr.
+<hi>Bays</hi> has (for ſome Reaſons beſt known to himſelf) chang'd his Opinion, in grace of
+God his Religion may be ſtill the ſame it was when he writ his <hi>Religio Laici,</hi> in the
+late Kings time; nay, for ought any bo<g ref="char:EOLhyphen"/>dy knows, it may be ſtill the ſame it was in his great
+Patron
+<pb n="6" facs="tcp:99228:6"/> 
+               <hi>Cromwel</hi>'s days, for they two did much alike admire Prieſts, for one
+made them (like <hi>Jerehoam</hi>) of the meaneſt of the People, and Mr. <hi>Bays</hi> made them
+to be all alike Cheats and Impoſtors; for his only Celebrated Poem of <hi>Abſolom</hi> and
+<hi>Achitophel</hi> (which chang'd his Principles from Wigiſm to To<g ref="char:EOLhyphen"/>ryiſm, he begins with his
+never failing kindneſs to the Prieſts (Page 1. line 1.)</p>
+            <q>In Pious times e're Prieſt-Craft did begin, &amp;c.</q>
+            <p>So by a Penny we know how a Shilling is made; for by Prieſt-Craft he makes no diſtinction,
+but takes them all in from <hi>Dan</hi> to <hi>Berſheba,</hi> as if no Religion could be good
+where a Prieſt was concern'd, and he gives you partly a Reaſon for it in the ſame Poem, and
+what it was that put
+<q>
+                  <l>—The Prieſthood in a flame,</l>
+                  <l>For Prieſts of all Religions are the ſame.</l>
+               </q>
+            </p>
+            <p>Which compar'd with his Prieſt-craft in the firſt Line of that Poem, is as much as to ſay
+they are all a company of Craf<g ref="char:EOLhyphen"/>ty K—s, which is a Note beyond Ela, and poſſible Mr.
+<hi>Bays</hi> might hug himſelf in that copious Thought; for by Prieſts of all Religions
+Infallibility it ſelf is included, which is very bold indeed; but poſſible he may think 'tis
+not ſo bold as brave, becauſe it ſhews a generous Temper, and that he was not partial in his
+Eſtimation of the Prieſts, &amp;c.</p>
+            <p>And to let us ſee he was not in jeaſt, he has (to his Eter<g ref="char:EOLhyphen"/>nal Praiſe) drawn the Picture
+of them all in one Piece; that I queſtion whether the fam'd <hi>Apelle</hi>'s Picture of
+<hi>Venus</hi> (which 'tis ſaid was Seven years a doing) was more nice and lively Painted than
+<hi>Bays</hi>'s Plump <hi>Spaniſh,</hi> (and moſt Catho<g ref="char:EOLhyphen"/>lick Fryer) for any body that vews that
+Piece may very ea<g ref="char:EOLhyphen"/>ſily gueſs at his deſign, of halling in by Head and Shoulders that
+unneceſſary Character, to compleat his double diſcovery, &amp;c. Well, Mr. <hi>Bays,</hi>
+though you ſay in the Preface to your
+<pb n="7" facs="tcp:99228:6"/> 
+               <hi>Medall,</hi> Sign-poſt Painting will ſerve to remember a Friend by, yet
+I muſt tell you, you have neither ſpar'd coſt nor pains, but have been extravagantly laviſh
+in Painting your (beloved) Prieſts; but I preſume the Reaſon was your Cha<g ref="char:EOLhyphen"/>rity to your poor
+Brethren the Laity, that they might beware of having any thing to do with them, and that
+poſſible might induce you to publiſh your own Creed in 82, giving it the Title of the
+<hi>Lay-mans Faith,</hi> in which you inſinuate the un<g ref="char:EOLhyphen"/>reaſonableneſs of pinning our Faith
+upon the Prieſts Sleeves; and truly as to that you have made an abſolute Convert of me, for I
+am much of your mind; for <hi>theſe Prieſts</hi> have, and ſtill do make Bloody work
+amongſt us, by endeavouring to impoſe upon our Underſtandings; yet I muſt needs confeſs I
+am not altogether of your Judgment, for I am willing to believe there are Prieſts of ſome
+Religions that are very honeſt and have no ill deſigns: But your <hi>Religio Laici</hi> has
+made me al<g ref="char:EOLhyphen"/>moſt of your Perſwaſion; and I am very apt to believe that Poem has gain'd you
+more Proſelites than your <hi>Hind and Panther;</hi> for it is not a little diverting to ſee
+how you have their maul'd and worried (beyond any <hi>Engliſh</hi> Maſtiff at the Bear-garden)
+the poor Pope and his Bulls; which puts me in mind of what you ſaid in your <hi>Medall</hi> upon
+another occa<g ref="char:EOLhyphen"/>ſion, which with a little variation will ſerve here,
+<q>
+                  <l>The Man who laught but once to ſee an Aſs</l>
+                  <l>Mumbling, to make the Croſs-graind Thiſtle paſs,</l>
+                  <l>Might laugh again to ſee the Papiſt chaw</l>
+                  <l>The Prickles of unpallatable Law.</l>
+               </q> And I am apt to believe were that Philoſopher alive,
+he wou'd as readily laugh to ſee Perſons ſwallow ſo greedily ſome things now, which but a
+little while ago none but Aſſes would venture ſo much as to chaw them, by reaſon of their
+pricking and choaking quality. But to give the Devil his due, I muſt needs own Mr. <hi>Bays</hi>
+has a moſt powerful and luxurious hand at Satyr, and may challenge all Chriſtendom to match
+him;
+<pb n="8" facs="tcp:99228:7"/> for indeed I never in my ſlender Province met with any that was to compare
+with him, unleſs that unknown (but ſuppoſed) worthy Author, that writ to him upon his (at
+laſt) turning <hi>Roman</hi> Catholi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>k (for
+<hi>Bays</hi> like the Vicar of <hi>Bray,</hi> in <hi>Henry</hi> the 8th. <hi>Edward</hi> the 6th.
+Queen <hi>Mary</hi> and Queen <hi>Elizabeth's</hi> days, was reſolved to keep his Place) and the
+quoting an Author to the purpoſe, is the ſame thing (the Learned ſay) as if it was his own;
+and that will I hope ex<g ref="char:EOLhyphen"/>cuſe my putting them down here.</p>
+            <q>
+               <l>Thou Mercenary Runnegade, thou Slave,</l>
+               <l>Thou ever Changing, ſtill to be a Knave:</l>
+               <l>What Sect, what Error wilt thou next diſgrace?</l>
+               <l>Thou art ſo lude, ſo ſcandil<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſly
+Baſe,</l>
+               <l>That Antichriſtian Popery may be</l>
+               <l>Aſham'd of ſuch a Proſelite as thee.</l>
+               <l>Not all thy Rancor or Felonious ſpite,</l>
+               <l>Which animates thy lumpiſh Soul to write,</l>
+               <l>Could ha' contriv'd a Satyr more ſevere,</l>
+               <l>Or more diſgrace the Cauſe thou wouldſt prefer?</l>
+               <l>Yet in thy favour this muſt be confeſt</l>
+               <l>It ſuits with thy Poetick Genius best;</l>
+               <l>There thou————</l>
+               <l>To Truths diſus'd mayſt entertain</l>
+               <l>Thy ſelf with Stories more fanciful and vain</l>
+               <l>Then e're thy Poetry could ever fain;</l>
+               <l>Or ſing the Lives of thy own fellow Saints,</l>
+               <l>'Tis a large Field and thy aſſiſtance wants;</l>
+               <l>Thence Copy out new <hi>Opera's</hi> for the Stage,</l>
+               <l>And with their Miracles direct the Age.</l>
+               <l>Such is thy Faith, if Faith thou haſt indeed,</l>
+               <l>For well we may ſuſpect the Poets Creed;</l>
+               <l>Rebel to God, Blaſphemer o' thy King,</l>
+               <l>Ah, tell whence cou'd this ſtrange Complyance ſpring:</l>
+               <l>So mayſt thou prove to thy new Gods, as true</l>
+               <l>As thy old Friend the Devil has been to you;</l>
+               <l>
+                  <pb n="9" facs="tcp:99228:7"/>Yet Conſcience and Religion's your pretence,</l>
+               <l>But Food and Drink the Methologick Sence.</l>
+               <l>Ah, how perſwaſive is the want of Bread,</l>
+               <l>Not Reaſons from strong Box more ſtrongly plead:</l>
+               <l>A Convert thou, 'tis paſt all believing,</l>
+               <l>'Tis a damn'd ſcandal of thy Foes contriving;</l>
+               <l>A Jeſt of that malicious monſtrous Fame,</l>
+               <l>The Honeſt Lay-man's Faith is ſtill the ſame.</l>
+            </q>
+            <p>And ſo much for Mr. <hi>Bays,</hi> for he has already detain'd me a little too long from what
+I chiefly intended; but ſince his Arguments were ſo ſtrong and pertinent to my purpoſe, I
+judg'd it not amiſs to have my Opinion favour'd by ſo Emi<g ref="char:EOLhyphen"/>nent an Author of their own, which I
+made uſe of only as an Introduction to the more ſerious and uſeful part, namely, what I
+promis'd in the beginning of the Letter <hi>(viz.)</hi> the Examining thoſe Places of Scripture
+which the Papiſts do moſt inſiſt on for proving their Church or the Pope, (no mat<g ref="char:EOLhyphen"/>ter
+which) Infallible. But I fear I have already tranſgreſs'd the Bounds of a Letter, and therefore
+I ſhall reſerve the reſt till another opportunity, in the mean time I ſhall Subſcribe my
+ſelf,</p>
+            <closer>
+               <salute>Sir,</salute>
+               <signed>
+                  <hi>Yours to Command ſo far<lb/> As in the power lyes of your oblig'd J.
+R.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div n="2" type="letter">
+            <pb n="10" facs="tcp:99228:8"/>
+            <head>THE SECOND LETTER.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>I Have Receiv'd yours, and am not a little proud at your gracious Acceptance of my laſt, which
+gives me no ſmall Encouragement of giving you the trouble of a ſecond, which I hope will give
+you a full ſatisfaction of what my poor Sentiments are, touching the Doctrine of Infallibility;
+which indeed is the ſecond Part to the ſame Tune, only with this difference;
+<q>
+                  <l>Neither Mr. <hi>Bays</hi> nor his Banter,</l>
+                  <l>Of his Milk white <hi>Hind</hi> and <hi>Panther</hi>
+                  </l>
+               </q> is at all concern'd in this; for
+though <hi>Bays</hi>'s Reaſons and Ar<g ref="char:EOLhyphen"/>guments are ſtrong and to the purpoſe, yet with thoſe
+of our Saviours and the Apoſtles, I did not judg it neceſſary they ſhould be Tranſcrib'd
+in one Letter, no more than I thought them fit to be nam'd in the ſame day; and that was the
+Reaſon, Sir, of my giving you a double trouble; but without any more Preamble I will endeavour to
+make good my Promiſe in my laſt <hi>(viz.)</hi> the examining thoſe Places of Scripture which
+are made uſe of for the proving the Do<g ref="char:EOLhyphen"/>ctrine of Infallibility, and likewiſe thoſe Places
+(which all Honeſt and ſincere Proteſtants ought to conſider) that plainly prove the
+contrary. I will begin firſt with thoſe Pla<g ref="char:EOLhyphen"/>ces,
+<pb n="11" facs="tcp:99228:8"/> or rather that Place (for I can find but one that ſeems ſo much as to
+favour the Point in Hand) which is <hi>Matthew</hi> the 16. and the 17, 18, and 19. Verſes,
+<hi>Then Jeſus anſwer'd and ſaid unto</hi> Peter, <hi>bleſſed art thou</hi> Simon
+Bar-jona, <hi>for fleſh and blood hath not revealed it unto thee, but my Father which is in
+Heaven: And I ſay unto thee, thou art</hi> Peter, <hi>and upon this Rock I will build my Church,
+and the Gates of Hell ſhall not prevail againſt it; and I will give unto thee the Keys of the
+Kingdom of Heaven, and whatſoever thou ſhalt bind on earth ſhall be bound in heaven, and
+whatſoever thou ſhalt looſe on earth ſhall be looſed in Heaven.</hi>
+            </p>
+            <p>In which words the <hi>Romanist</hi> do believe St. <hi>Peter</hi> to be made the Infallible
+Head of the Church, &amp;c. as ſure as the Wafer after Conſecration is tranſubſtantiated
+into the Cor<g ref="char:EOLhyphen"/>poreal ſubſtance of our Bleſſed Lords Body; and upon that account it is, the
+pretended Succeſſors of St. <hi>Peter</hi> has Lorded it over, not only their Fellow Biſhops,
+but all Chriſtian Prin<g ref="char:EOLhyphen"/>ces and Crown'd Heads; but upon what Grounds <hi>this more than Sovereign
+Authority</hi> has been ſet up and practiſed, I ſhall now inquire, and I do not queſtion
+but to make it appear from our Saviours own words, that he neither meant or in<g ref="char:EOLhyphen"/>tended any ſuch
+Power and Authority to be ſet up by his Diſciples and Followers, as is at this day exerciſed
+by ſome body in the World, &amp;c. and that will plainly appear if we conſider the occaſion
+of thoſe words of our Saviour to St. <hi>Peter,</hi> which was the Queſtion our Saviour ask'd
+(not St. <hi>Pe<g ref="char:EOLhyphen"/>ter</hi> but) all the Diſciples (<hi>Matt.</hi> the 16. and 13. ver.) <hi>When
+Jeſus came into the Coaſts of</hi> Ceſarea Philippi, <hi>he asked his Diſ<g ref="char:EOLhyphen"/>ciples, ſaying,
+Whom do men ſay, that I, the Son of Man, am.</hi> Now it is not to be ſuppoſed that our
+Saviour asked them becauſe he did not know as well as they what the Peoples thoughts were
+concerning him, but in all probability it was to draw a Confeſſion of their own Opinion of him;
+for in the 15. ver. <hi>He ſaith unto Them, but whom ſay Ye that I am;</hi> then we find ver.
+the 16th. <hi>And</hi> Simon Peter <hi>anſwer'd and ſaid, thou art Chriſt the Son of the
+living God;</hi> upon which account it was
+<pb n="10" facs="tcp:99228:9"/> that our Saviour, in the next verſe ſaid, <hi>Thou art</hi> Peter, <hi>and
+upon this Rock I will build my Church,</hi> &amp;c. ſo that it is plain our Saviours words had
+Relation to all the reſt of the Diſ<g ref="char:EOLhyphen"/>ciples, whoſe Anſwer it was, though St. <hi>Peter</hi>
+(like a Fore<g ref="char:EOLhyphen"/>man of a Jury) deliver'd it as the Belief and Sentiments of them all; for we find (as
+I before obſerv'd) the queſtion was put to them all, but it would be unreaſonable to
+ſuppoſe they ſhould (as in a rout) anſwer we all, all, one and all, do be<g ref="char:EOLhyphen"/>lieve, &amp;c.
+but they being all preſent, without contradicting St. <hi>Peter,</hi> 'tis not to be queſtion'd
+but that they did All be<g ref="char:EOLhyphen"/>lieve and own the ſame thing; ſo that it would be ſome vio<g ref="char:EOLhyphen"/>lence
+offer'd to that place of Scripture, to underſtand our Saviour meant the Perſon of St.
+<hi>Peter,</hi> and not the Confeſ<g ref="char:EOLhyphen"/>ſion, which (in the behalf of them all) he deliver'd, being
+ſo happy (as he was always very forward) to ſpeak firſt: and it is not unreaſonable to
+ſuppoſe, that if any of the other Diſci<g ref="char:EOLhyphen"/>ples had ſaid the ſame thing, our Saviours
+anſwer would have been the ſame likewiſe. And that our Saviour did not in<g ref="char:EOLhyphen"/>tend thoſe words
+to be underſtood, as ſome would have them, will better appear if we conſider two things:
+Firſt the great caution that our Bleſſed Saviour gave, with the care and pains he took upon
+all occaſions, to prevent his Diſci<g ref="char:EOLhyphen"/>ples entertaining ſo much as a Notion of that Nature:
+And, Secondly, a poſitive Command to the contrary. As to the firſt we find in St. <hi>Mark</hi>
+the 9. and 33. our Saviour asking his Diſciples <hi>What it was they were diſputing of among
+them<g ref="char:EOLhyphen"/>ſelves by the way; but they held their peace, &amp;c.</hi> and well they might, for they
+knew they had been diſputing upon a rong Topick, for the matter was no leſs than who amongſt
+them ſhould be the greateſt, as you may read ver. the 34. and in the next ver. we have our
+Saviours anſwer, <hi>And he ſate down and called</hi> (I pray mark) <hi>the Twelve, <hi>and
+ſaith unto them, if any Man deſire to be first the ſame ſhall be last of all, and Ser<g ref="char:EOLhyphen"/>vant
+of all.</hi>
+               </hi> From which we may obſerve the early care our Saviour took to prevent this
+Doctrine of Exerciſing Authori<g ref="char:EOLhyphen"/>ty over one another; and though it was poſſible but a
+Diſ<g ref="char:EOLhyphen"/>courſe
+<pb n="11" facs="tcp:99228:9"/> to paſs away the time as they were coming to <hi>Caper<g ref="char:EOLhyphen"/>naum,</hi> yet our
+Bleſſed Lord, that knew their thoughts as well as their diſpute, takes an occaſion to
+cruſh this <hi>Cocka<g ref="char:EOLhyphen"/>trice</hi> in the Egg, that it might not reign in his Spiritual King<g ref="char:EOLhyphen"/>dom;
+for no doubt he did foreſee the ill Conſequence of it. But were this Doctrine of ſuch
+important uſe as ſome would make it, one would think nothing had been more neceſſary for
+the Peace and Good of the Chriſtian Church, than the Doctrine of St. <hi>Peter</hi> and his
+Succeſſors Infallibility to have been deliver'd to the World, ſo plain (as is indeed the
+con<g ref="char:EOLhyphen"/>trary) that it could not admit of a Diſpute. And therefore for our Saviour and the Apoſtles
+to be (if I may ſo ſay) wanting in a matter of ſo great concern, appears to me won<g ref="char:EOLhyphen"/>derful
+ſtrange; and it is not to be doubted, that if ſuch an <hi>Infallible Guide and Head</hi> of the
+Church had been neceſſary, our Bleſſed Lord, whoſe deſign and purpoſe of coming into
+the World was to do and procure for us all imaginable good, would not have been wanting in
+inſtituting ſo convenient a Determiner of all Controverſie, nor likewiſe ſparing of his
+pains in the inſtructing and directing us how and where to find this <hi>Balm of Gilead,</hi>
+this <hi>Philoſophers Stone,</hi> which is able to re<g ref="char:EOLhyphen"/>fine and cure all the Diſtempers and
+Diviſions of the Chriſti<g ref="char:EOLhyphen"/>an World about the true Worſhip of God, &amp;c. Beſides, had
+Almighty God deſign'd his Church ſuch a particular Head, how unreaſonable would it be to
+ſuppoſe our Saviour ſhould be ignorant of it; and if the contrary, to conceal it from his
+Diſciples, eſpecially at this time, when they were contending (as it were about the ſame
+thing) who amongſt them ſhould be the greateſt: And without all doubt had our Saviour
+de<g ref="char:EOLhyphen"/>ſign'd to have inveſted St. <hi>Peter</hi> with ſuch a Power, he would have acquainted
+them with it, and would (as this had been a very fit time) have told them, they need not trouble
+them<g ref="char:EOLhyphen"/>ſelves about thoſe unneceſſary Diſputes, for there was one a<g ref="char:EOLhyphen"/>mongſt them that was
+already deſign'd and intended to be the Rock and only Foundation on which he would build his
+Church, and ſo conſequently their Principal Head and Go<g ref="char:EOLhyphen"/>vernour,
+<pb n="14" facs="tcp:99228:10"/> and they ought to reſpect him and his Succeſſors accordingly. But as
+there is no Footſteps or Place of Scrip<g ref="char:EOLhyphen"/>ture to warrant our Belief of any thing of this kind, let
+us inquire whether there be any to the contrary, which is the ſecond thing to be conſider'd,
+<hi>(viz.)</hi> our Saviours <hi>poſitive</hi> Command to his Diſciples, that they ſhould not
+exerciſe any ſuch Authority, &amp;c. and that will more plainly appear in the 20th. of St.
+<hi>Matt.</hi> and the 20. and 21. verſes, <hi>When the Mo<g ref="char:EOLhyphen"/>ther of</hi> Zebedees <hi>Children
+came to deſire that her two Sons might ſit, the one on the right hand, and the other on the
+left, of our Bleſ<g ref="char:EOLhyphen"/>ſed Saviour in his Kingdom, we find all the reſt mov'd with Indignation
+againſt the two Brethren</hi> (for their Ambition of being exalted above their Fellows) and
+though 'tis reaſonable to ſuppoſe this deſire was grounded upon a miſtake of Chriſts
+Kingdom (which the Jews, nay the very Diſciples themſelves, at that time did believe it, a
+Temporal one) yet we find our Saviour takes care to rectifie both their miſtakes and ambitious
+Temper of Mind, of being exalted one a<g ref="char:EOLhyphen"/>bove another, which was by no means to be practiſed
+a<g ref="char:EOLhyphen"/>mongſt them, as you may read from the 25th. to the 29th. of the ſame 20th. of St.
+<hi>Matthew. But Jeſus called them unto him and ſaid, Ye know that the Princes of the Gentiles
+exerciſe Do<g ref="char:EOLhyphen"/>minion over them, and they that are great exerciſe Authority upon them; <hi>but it
+ſhall not be ſo among you;</hi> but whoſoever will be great among you let him be your
+Miniſter; and whoſo<g ref="char:EOLhyphen"/>ever will be chief among you, let him be your Servant; even as the Son of
+Man came not to be ministred unto, but to miniſter, and give his Life a Ranſom for many.</hi>
+To the ſame purpoſe in St. <hi>Mark</hi> the 10th. from the 42. to the 46. and in St.
+<hi>Luke</hi> the 22. and the 25. and 26. Verſes, and ſo on; by all which Pla<g ref="char:EOLhyphen"/>ces, and many
+more to the ſame purpoſe, we may obſerve the more than ordinary care our Saviour took to cure
+this Epidemical Diſtemper that had began to infect them in his days; that they might be the
+better prepar'd to follow his Example, eſpecially in that humble, peaceable Temper of Mind,
+&amp;c. The conſideration of which one would think is
+<pb n="15" facs="tcp:99228:10"/> ſufficient to convince any Rational Creature of the unreaſo<g ref="char:EOLhyphen"/>nable pretence
+of the pretended Succeſſors of St. <hi>Peter's</hi> claiming a Supream Power and Authority, not
+only in Ec<g ref="char:EOLhyphen"/>cleſiaſtical matters, but Temporal over all Chriſtian Kings and Princes,
+pretending they hold their Authority by Vertue of the Popes Grace and Favour, and that he can
+depoſe one and ſet up another as he thinks fit. And that this is no new No<g ref="char:EOLhyphen"/>tion, you ſhall
+hear what my Brother Lay-man ſays to the ſame purpoſe, in the Preface to his FAITH, Page the
+5th. <hi>How can we be ſecure from the practice of Jeſuited Papists in that Reli<g ref="char:EOLhyphen"/>gion; for not
+two or three of that Order, as ſome of them would im<g ref="char:EOLhyphen"/>poſe upon us, but almost the whole Body of
+them are of Opinion, that their Infallible Maſter has a Right over Kings, not only in Spi<g ref="char:EOLhyphen"/>tuals
+but Temporals; not to name</hi> Mariana, Bellarmine, Ema<g ref="char:EOLhyphen"/>nuel Sa. Molina, Santarel Simancha,
+<hi>and at the leaſt, Twenty others of Foreign Countries: We can produce of our own Nation,</hi>
+Cham<g ref="char:EOLhyphen"/>pian, <hi>and</hi> Doleman <hi>or</hi> Parſons; <hi>beſides many are nam'd whom I have not
+read, who all of them atteſt this Doctrine, that the Pope can depoſe and give away the Right of
+any Sovereign Prince,</hi> Si vel paulum deflexerit, <hi>if he ſhall never ſo little warp; but
+if he once comes to be Excommunicated, then the Bond of Obedience is taken off from Subjects, and
+they may and ought to drive him like another</hi> Nebuchadnezzar, ex hominum Chriſtianorum
+Dominatu, <hi>from Exerciſing Dominion over Chriſtians; and to this they are bound by Virtue of
+Divine Pre<g ref="char:EOLhyphen"/>cept, and by all the Tyes of Conſcience, under no leſs Penalty than Damnation.</hi>
+Which is more than our Saviour and the Apo<g ref="char:EOLhyphen"/>ſtles ever taught or pretended to, but the contrary is
+very evident; and to that purpoſe St. <hi>Paul</hi> in the 13th. to the <hi>Ro<g ref="char:EOLhyphen"/>mans</hi> ver. the
+1. ſays, <hi>Let every Soul be ſubject unto the Higher Powers,</hi> &amp;c. which Power is
+there underſtood the Supream Magiſtrate, and ver. 6. <hi>For this cauſe pay you Tribute
+alſo, for they are Gods Miniſters, attending continually upon this very thing.</hi> And to the
+ſame purpoſe <hi>St. Peter himſelf</hi> Commands this Duty, <hi>Submit your ſelves to every
+Ordinance of Man for the Lords ſake; whether it be to the King as Supream, or unto
+<pb n="14" facs="tcp:99228:11"/> Governours as unto them that are ſent by him,</hi> &amp;c. the firſt
+E<g ref="char:EOLhyphen"/>piſtle of <hi>Peter</hi> the 2. chap. the 13. and 14. verſes. So that 'tis plain who the
+Apoſtles calls <hi>Supream,</hi> and whom our bleſſed Lord, own'd, does appear by his putting
+himſelf to the Charge of a Miracle, leſt he ſhould offend. But this was a great while a<g ref="char:EOLhyphen"/>go,
+and the Cauſe and the Times alter'd, and another ſort of a Supremacy ſet up, which was not
+known in thoſe days, not till many Centuries after; for if St. <hi>Peter</hi> had been inveſted
+with any ſuch Authority (as his pretended Succeſſors pretend too) certainly our Saviour or
+the Apoſtles would in ſome manner one time or other have taken notice of it; but for our Hearts
+we cannot find any ſuch thing. But to oblige our <hi>Roman</hi> Friends, I will examine the
+Matter a little farther, and the better to inform our ſelves of this great Point, we will take a
+view of our Saviours treating St. <hi>Peter</hi> after this ſuppos'd Prerogative deliver'd him;
+in the ſame 16th. of St. <hi>Matthew</hi> (where our Saviour is ſuppoſed to give St.
+<hi>Peter</hi> only the Power of the Keys) we find our Bleſſed Lord telling his Diſciples
+what he was to ſuffer, &amp;c. <hi>From that time forth began Jeſus to ſhew to his
+Diſciples, how that he muſt go unto</hi> Jeruſalem, <hi>and ſuffer many things of the
+Elders and Chief Prieſts and Scribes, and be killed, and be raiſed again the third day.</hi>
+Then St. <hi>Peter</hi> took him and began to rebuke him ſay<g ref="char:EOLhyphen"/>ing, <hi>Be it far from thee, Lord,
+this ſhall not be unto thee,</hi> ver. the 21. and 22. but pray mark our Saviours anſwer (to
+this In<g ref="char:EOLhyphen"/>fallible Head) in the next verſe; <hi>But he turned and ſaid un<g ref="char:EOLhyphen"/>to</hi> Peter, <hi>get
+thee behind me Satan, thou art an offence unto me; for thou ſavoureſt not the things that be of
+God, but thoſe that be of Men.</hi> By which it appears it was not the Perſon, but the great
+Truth in the Confeſſion, which he deliver'd in the behalf of himſelf and the reſt, that was
+the Rock our Savi<g ref="char:EOLhyphen"/>our would build his Church, &amp;c. which indeed is a good and ſtrong
+Foundation, ſuch a one as our Saviour ſpeaks of in the 7th. of St. <hi>Matthew,</hi> the 24.
+and 25. <hi>Therefore whoſoever heareth theſe ſayings of mine, and doth them, I will liken
+him unto a wiſe man which built his Houſe upon a Rock; and the
+<pb n="17" facs="tcp:99228:11"/> Rain deſcended, and the Floods came, and the Winds blew, and beat upon that
+Houſe; but it fell not, for it was founded upon a Rock;</hi> which Parable is underſtood of a
+good Chriſtians Faith, which will hold out againſt the Storms and Tempeſts of Perſecution,
+which all good Chriſtians will do, whoſe Faith is built upon that Confeſſion of St.
+<hi>Peters</hi> (viz.) <hi>Thou art Christ the Son of the living God,</hi> which as a good and
+ſtrong Foundation, will ſupport all the reſt of our Creed, and therefore by an Allegorical
+Expreſſion call'd a Rock, which muſt be underſtood in a Spiritual Senſe, on which
+Chriſt would e<g ref="char:EOLhyphen"/>rect his Spiritual Kingdom. Agreeable is that place of St. <hi>Paul,
+Epheſians</hi> the 2. and the 19. and 20. verſes, <hi>Now there<g ref="char:EOLhyphen"/>fore ye are no more Strangers
+and Foreigners, but fellow Citizens with the Saints, and of the houſhold of God; and are built
+up<g ref="char:EOLhyphen"/>on the foundation of the Apostles and Prophets, Jeſus Chriſt himſelf being the chief
+Corner Stone.</hi> So that here 'tis plain, and beyond all diſpute, that the Apoſtles and
+Prophets were the Rock and Foundation, that is to ſay, the Faith and Doctrine which they did
+profeſs and teach (and not their Perſons) was the Rock and Foundation that both our Savi<g ref="char:EOLhyphen"/>our
+and St. <hi>Paul</hi> meant, on which the Chriſtian Church was built; if otherwiſe, why
+ſhould he omit telling them they were built upon St. <hi>Peter,</hi> that Rock and Head of the
+Church? and ſo of the reſt; but we ſee he takes no more notice of St. <hi>Peter</hi> than the
+reſt. Beſides, there is little reaſon to ſup<g ref="char:EOLhyphen"/>poſe our Saviour ſhou'd mean the Perſon
+of St. <hi>Peter,</hi> when he ſo well knew the weakneſs of that Foundation; for tho' he was
+indeed very forward upon all occaſions, as his at<g ref="char:EOLhyphen"/>tempting to go to our Saviour when he was
+walking on the Sea, yet we find this preſumptive Faith ſoon fail'd him, for he was forc'd to
+implore our Saviour's Aſſiſtance, by crying out, <hi>Lord help me or I periſh:</hi> And
+again, notwithſtanding his Reſolution to dye rather than deny his Lord, &amp;c. yet we find our
+Saviour telling him, <hi>Matthew</hi> the 26. and 34. verſe, <hi>Before the Cock crow he ſhou'd
+deny him thrice;</hi> in all which we do not find any more notice taken of St. <hi>Peter</hi> by
+our Sa<g ref="char:EOLhyphen"/>viour
+<pb n="18" facs="tcp:99228:12"/> than of any of the other Diſciples, unleſs it were to re<g ref="char:EOLhyphen"/>prove him for his
+want of Faith and other Faults. And we may obſerve further that on all occaſions our Saviour
+was not want<g ref="char:EOLhyphen"/>ing in cautioning his Diſciples, not only to forbear ſetting up ſuch an
+Authority (as we have been treating of) amongſt them, but likewiſe commanded all Obedience to
+be given to the Supream Powers that was then in the World: and from thence it was that he reprov'd
+St. <hi>Peters</hi> raſhneſs in drawing his Sword, though he did it with deſign to defend him
+againſt thoſe that came to apprehend him, <hi>John</hi> the 18. ver. the 11. <hi>Then ſaid
+Jeſus unto</hi> Peter, <hi>put up thy Sword,</hi> &amp;c. and he gives the reaſon for it, ver.
+the 36. <hi>Jeſus anſwer'd, my King<g ref="char:EOLhyphen"/>dom is not of this world, if my Kingdom were of this world,
+then would my Servants fight, that I ſhould not be deliver'd to the Jews; but now is my Kingdom
+not from hence;</hi> which I think is a very powerful Argument againſt him who calls himſelf
+Chriſt's Vicar, and Lords it over all the Kingdoms of the World, contrary to Chriſts Command,
+and the Practice of the Apoſtles and Primitive Chriſtians for almoſt a Thou<g ref="char:EOLhyphen"/>ſand years
+after Chriſt. But to proceed, ſince we cannot find, in all the time of our Saviours being with
+his Diſciples in the Fleſh, any thing to warrant our belief of St. <hi>Peters</hi> be<g ref="char:EOLhyphen"/>ing the
+Head, &amp;c. We will go one ſtep further, and inquire if after his Reſurrection (which was the
+accompliſhment and Confirmation of all he had deliver'd to them) whether he did deliver to St.
+<hi>Peter</hi> any Power or Commiſſion, more than he did to any of the reſt of his
+Diſciples. In the three laſt verſes of the 28th. of St. <hi>Matthew</hi> we thus read,
+<hi>All power is given unto me in heaven and in earth, go Ye therefore and teach all Nations,
+baptizing them in the name of the Father, and of the Son, and of the Holy Ghoſt, teaching them to
+obſerve all things whatſoever I command you; and loe I am with you even to the end of the
+world.</hi> Now 'tis granted that here is a Com<g ref="char:EOLhyphen"/>miſſion given; but to whom? was it deliver'd to
+<hi>Pe<g ref="char:EOLhyphen"/>ter, James</hi> or <hi>John?</hi> &amp;c. No, but to them all, in thoſe words <hi>Go
+Ye,</hi> &amp;c. Neither do we find any diſtinction, though
+<pb n="19" facs="tcp:99228:12"/> St. <hi>Peter</hi> and all the reſt was there at the ſame time, as you may
+read verſes the 16th. and 17th. of that Chapter; <hi>Then the E<g ref="char:EOLhyphen"/>leven Diſciples went away
+to</hi> Galilee, <hi>into a mountain where Je<g ref="char:EOLhyphen"/>ſus had appointed them; and when they ſaw him
+they worſhip<g ref="char:EOLhyphen"/>ped him, but ſome doubted.</hi> And in St. <hi>Mark</hi> the 16th. and the 14th.
+and 15. verſes, <hi>And afterward he appeared unto the Eleven, as they ſat at meat, and
+upbraided them with their un<g ref="char:EOLhyphen"/>belief, and hardneſs of heart, becauſe they believed not them
+which had ſeen him after he was riſen. And he ſaid unto THEM, go YE into all the world, and
+preach the Goſpel to every Crea<g ref="char:EOLhyphen"/>ture.</hi> So that here is again the ſame Commiſſion, but
+with<g ref="char:EOLhyphen"/>out any Preheminence given to either of them. St. <hi>Luke</hi> makes no mention of this
+Matter: And for that Place of St. <hi>John</hi> which the <hi>Romanists</hi> brag ſo much of from
+our Sa<g ref="char:EOLhyphen"/>viour, biding St. <hi>Peter</hi> three times feed his Sheep; it is I think impoſſible to
+be underſtood as if from thence our Sa<g ref="char:EOLhyphen"/>viour intended Him to be the Head and Chief of the
+Apo<g ref="char:EOLhyphen"/>ſtles; but rather, as it is moſt probable, to ſtrengthen his Faith, that he might be the
+better enabled to go through with a difficult Work; for we find our Saviour telling him in the two
+following verſes, being the 18th. and 19th. of the laſt of St. <hi>John, What he was to
+ſuffer for his ſake,</hi> &amp;c. So that it is very reaſonable to ſuppoſe that our
+Saviour's know<g ref="char:EOLhyphen"/>ing his weakneſs from his former denying him, might upon that account lay a more
+ſtrict Command upon him than any of the reſt. Beſides, it is not unreaſonable to
+ſuppoſe from thoſe words of our Saviour (viz.) <hi>Simon Son of Jonas lovest thou me,</hi>
+which was as oft repeated as his biding him <hi>Feed his Sheep,</hi> might be to upbraid him for
+his former denying him, whereby he might take notice he had given our Bleſſed Lord ſufficient
+reaſon to doubt; and as he had (notwith<g ref="char:EOLhyphen"/>ſtanding his Reſolution to the contrary) deny'd him
+with Oaths and Imprecations three ſeveral times: So poſſible that might be one great Reaſon
+why our Saviour did likewiſe trible his Commands, &amp;c. And to me it appears plain, that our
+Saviours trible Command, of biding St. <hi>Peter Feed his
+<pb n="20" facs="tcp:99228:13"/> Sheep,</hi> can have no Relation to his being made Head of the Church,
+notwithſtanding that Papiſtical objection <hi>(viz.)</hi> to whom did our Saviour ſo oft bid
+<hi>Feed his Sheep,</hi> &amp;c, which objection I muſt needs ſay is a very ſtrong
+ſheepiſh one, though at the ſame time I know it is urg'd as a ſtrong Argument, to confirm
+(as they ſay) the Commiſſion which our Saviour gave to St. <hi>Peter</hi> in thoſe words,
+<hi>(viz.) Thou art</hi> Peter, <hi>and upon this Rock,</hi> &amp;c. And they tell us our
+Sa<g ref="char:EOLhyphen"/>viour's giving ſuch a particular charge to St. <hi>Peter,</hi> muſt im<g ref="char:EOLhyphen"/>port ſomething more
+than ordinary, which indeed is very true, and I think the reaſon as plain; for, as I before
+ob<g ref="char:EOLhyphen"/>ſerv'd, our Saviour well knowing his Faith wanted his ſpecial aſſiſtance, took more
+than ordinary care that his Faith might be agreeable to his Confeſſion (which indeed was the
+Rock our Saviour meant) and to that purpoſe we read in the 22. of St. <hi>Luke</hi> the 31. and
+32. verſes, <hi>And the Lord ſaid, Si<g ref="char:EOLhyphen"/>mon, Simon, behold Satan hath deſired to have you, that
+he may ſift you as wheat, but I have prayed for thee that thy Faith fail not; and when thou art
+converted ſtrengthen thy brethren.</hi> By which words we find he was not as yet converted, nor
+in<g ref="char:EOLhyphen"/>deed any of them, until after the Reſurrection; for as our Savi<g ref="char:EOLhyphen"/>our had foretold,
+<hi>Matthew</hi> the 26. verſe the 31. <hi>I will ſmite the Shepherd, and the Sheep of the
+flock ſhall be ſcatter'd abroad.</hi> So after the Jews had put our Saviour to death, we find
+them diſperc'd and ſcatter'd up and down, for indeed they could not tell well what to make of
+the matter, as appears by the diſcourſe our Saviour had with ſome of them as they were go<g ref="char:EOLhyphen"/>ing
+to <hi>Emmaus,</hi> which was diſtant from Jeruſalem ſome three-ſcore Furlongs,
+<hi>Luke</hi> the 24. from the 13. to the 25. verſe, and at the 21. verſe, <hi>But we truſted
+that it had been He which ſhould have Redeemed</hi> Iſrael, &amp;c. By which it appear'd they
+was ſtill in doubt; but after Chriſts Aſcenſion and ſending the Holy Ghoſt, the
+promiſed Comforter, amongſt them, we find they were very bold and couragious, and ſome
+thouſands was converted, <hi>Acts</hi> the 2. and the 41. at St. <hi>Peter</hi>'s firſt
+Ser<g ref="char:EOLhyphen"/>mon; from which ſome Learned Men have underſtood thoſe
+<pb n="21" facs="tcp:99228:13"/> words, <hi>
+                  <g ref="char:V">Ʋ</g>pon this Rock I will build my Church,</hi> &amp;c. as a
+particular favour of our Saviours to St. <hi>Peter,</hi> in making him the firſt Inſtrument of
+laying the Foundation of his Church, not at <hi>Rome,</hi> but <hi>Jeruſalem</hi> (which indeed
+was the Mother Church) and as our Saviour was to the Jews, ſo may the miſunderſtanding that
+Place of Scripture (viz.) <hi>
+                  <g ref="char:V">Ʋ</g>pon this Rock,</hi> &amp;c. be a ſtumbling Block (poſſibly)
+to the Papiſt. And for thoſe words of our Saviours bidding St. <hi>Peter feed his Sheep,</hi>
+it cannot poſſible, without taking leave of our Un<g ref="char:EOLhyphen"/>derſtandings, be underſtood as our
+<hi>Roman</hi> Friends would perſwade us; but much rather from their being ſo oft repeat<g ref="char:EOLhyphen"/>ed, we
+may reaſonable gather our Saviours purpoſe was, they ſhould make the greater and deeper
+impreſſion in his Heart, that ſo he might not forget this his laſt Command, as he forgot
+him <hi>Matthew</hi> the 26.72. ver. <hi>And again he deny'd him with an oath, I do not know the
+Man.</hi> And ſo much ſhall ſuffice for our inquiry, how or in what manner our Saviour, both
+before and after his Reſurrection, took notice of St. <hi>Peter</hi> more than of the reſt of
+his Diſciples, in Relation to his be<g ref="char:EOLhyphen"/>ing the Chief and Head of the Church. But the better to
+underſtand this Infallible Point, which is of ſo great con<g ref="char:EOLhyphen"/>cern, that if gain'd, it would be
+like a General's taking the Metropolis of a Kingdom, all the little Towns and Villages would fall
+in in courſe. I will go one ſtep further, and in<g ref="char:EOLhyphen"/>quire whether the Apoſtles themſelves did
+know or believe a<g ref="char:EOLhyphen"/>ny ſuch thing in their Time; for certainly if St. <hi>Peter</hi> had been
+inveſted with any ſuch Power, they could not be ignorant of it; and that time <hi>(viz.)</hi>
+after Chriſts Aſcenſion into Heaven, and ſending the Holy Ghoſt, was the moſt proper to
+have put it in Execution. But in the proſecution of this I ſhall make two Inquiries; Firſt,
+Whether St. <hi>Peter</hi> did aſſume or take upon him any ſuch Power and Authority above the
+reſt of the Apoſtles? And, ſecondly, Whether the reſt did give Place or any Preheminence to
+St. <hi>Peter,</hi> as be<g ref="char:EOLhyphen"/>lieving him to be their Chief and Head? and if neither of theſe two
+things do appear, I hope it will ſufficiently clear
+<pb n="22" facs="tcp:99228:14"/> the Point in hand. I will begin with the firſt, Whether St. <hi>Peter</hi>
+did aſſume any ſuch Power? &amp;c. after the Diſciples return from ſeeing our Saviour
+taken up into Heaven, <hi>Acts</hi> the 1. and 13. verſe, we thus read, <hi>And when they were
+come in, they went up into an upper-room, where abode both Peter, and James, and John, and Andrew,
+Philip, and Thomas, Bartholomew, Matthew, James the Son of Alpheus, and Simon Zelotes, and Judas
+the Brother of James;</hi> which in<g ref="char:EOLhyphen"/>deed is all the Eleven, but without any manner of
+diſtincti<g ref="char:EOLhyphen"/>on, which certainly would have been a great fault in St. <hi>Luke</hi> (the
+ſuppoſed Author of the <hi>Acts</hi>) had he known St. <hi>Peter</hi> to have been the Head,
+&amp;c. And again when the Apoſtles met to chuſe one in the room of him which betrayed our
+Lord, verſe the 23. and 24. <hi>And they appointed two, Joſeph called Barſabas, who was
+ſurnamed Justus,</hi> and <hi>Matthias: And they prayed, and ſaid, Thou Lord which knoweſt
+the Hearts of all men, ſhew whether of theſe two thou haſt choſen. And</hi> verſe the 26.
+<hi>THEY gave forth their Lots, and the Lot fell upon</hi> Matthias, <hi>and he was number'd with
+the eleven Apoſtles.</hi> From which it is evident St. <hi>Peter</hi> did not aſſume any
+Power a<g ref="char:EOLhyphen"/>bove the reſt in this matter, though it was of ſo great con<g ref="char:EOLhyphen"/>cern as the chuſing an
+Apoſtle, but did only act equally with the reſt, as appears by thoſe words before recited
+<hi>(viz) And THEY appointed; and THEY gave forth their Lots,</hi> &amp;c. So that from hence 'tis
+reaſonable to ſuppoſe that neither St. <hi>Pe<g ref="char:EOLhyphen"/>ter</hi> nor the reſt of the
+<hi>Apostles</hi> did ſo much as dream of ſuch a Power lodg'd in any one of them, for if they
+had, one would think then it had been as proper a time to have made uſe of it as any ſince; and
+then upon ſuch an occaſion it had been rational for the Evangeliſt to have given the Account
+of that matter thus <hi>(viz.)</hi> St. <hi>Peter</hi> the Chief of the Apo<g ref="char:EOLhyphen"/>ſtles and Head of the
+Church, &amp;c. did Summons the Reſt to attend and be preſent, at HIS Chuſing or
+Conſecrating a Perſon whom HE judg'd ſit to be Ordain'd a Witneſs, with them (in the room
+of <hi>Judas</hi>) of our Bleſſed Lords Reſurrecti<g ref="char:EOLhyphen"/>on. This, as it would have been to the
+purpoſe, ſo likewiſe it
+<pb n="23" facs="tcp:99228:14"/> would have been highly neceſſary at that time, for then the reſt of the
+Apoſtles wou'd not only have known this great Prerogative of St: <hi>Peter,</hi> but likewiſe
+how to have behav'd themſelves accordingly, and alſo to have inſtructed their Fol<g ref="char:EOLhyphen"/>lowers in
+the like Obedience to him and his Succeſſors. But to proceed, in the ſecond of the
+<hi>Acts</hi> we read of the Holy Ghoſt's deſcending verſe the 3. and 4. <hi>And there
+appeared unto THEM Cloven Tongues, like as of Fire, and it ſat upon</hi> (I pray mark, not one,
+St. <hi>Peter</hi> only, but) <hi>EACH of THEM, and THEY were ALL filled with the Holy Ghoſt, and
+began to ſpeak with other Tongues, as the Spirit gave THEM utter<g ref="char:EOLhyphen"/>ance;</hi> where by the way we
+may take notice the Evangeliſt ſtill keeps to his Rule of giving an impartial account; for in
+this place alſo he tells us the Holy Ghoſt made no diſtinction, notwithſtanding St.
+<hi>Peter</hi>'s being preſent, <hi>but ſat upon EACH, and THEY were ALL filled,</hi> &amp;c.
+And in the third of the <hi>Acts</hi> verſe the 6. we find St. <hi>Peter</hi> cure a Man that had
+been lame from his Mothers Womb; yet St. <hi>John</hi>'s being preſent, he does not aſſume,
+as if he only in the Name of Jeſus had done it, but makes St. <hi>John</hi> a Copartner and
+inſtrumental in it, as you may obſerve upon the Peoples being gather'd toge<g ref="char:EOLhyphen"/>ther ver. the 11.
+and 12. <hi>And when</hi> Peter <hi>ſaw it, he anſwer'd unto the People, Ye men of Iſrael,
+why marvel ye at this, or why look ye ſo earneſtly on <g ref="char:V">Ʋ</g>S, as though by O<g ref="char:V">Ʋ</g>R own Power or
+Holineſs WE had made this man to walk:</hi> In which Place no leſs than three times he ſpeaks
+in the Plural Number, <hi>(viz.) <g ref="char:V">Ʋ</g>S, O<g ref="char:V">Ʋ</g>R</hi> and <hi>WE,</hi> &amp;c. which plainly ſhews,
+that neither St. <hi>Peter</hi>'s humble Temper nor Spirit does reign in his pre<g ref="char:EOLhyphen"/>tended
+Succeſſors. And ſo much ſhall ſerve for the firſt In<g ref="char:EOLhyphen"/>quiry, whether St. <hi>Peter</hi>
+did take upon him or aſſume any ſuch Infallible Power, &amp;c. The ſecond is, Whether the
+Apo<g ref="char:EOLhyphen"/>ſtles did give Place or Preheminence to St. <hi>Peter</hi> as believing him to be their Chief
+and Head of the Church, &amp;c. <hi>When the High-Prieſt, and thoſe that were with him (which
+was the Sect of the Sadduces) had laid hands on the Apoſtles, and put them into the Common
+Priſon, the Angel of the Lord by night
+<pb n="24" facs="tcp:99228:15"/> opened the Priſon-doors, and brought them forth, and ſaid, go ſtand and
+ſpeak in the Temple to the people all the words of this Life: And when THEY heard it, THEY
+enter'd the Temple,</hi> &amp;c. as you may read <hi>Acts</hi> the 5. from the 17. to the 22.
+verſe; in all which we do not find any difference, but an equal Power and Authority was deliver'd
+to them all. But 'tis poſſible the <hi>Romaniſt</hi> may object againſt the Commiſſion
+gi<g ref="char:EOLhyphen"/>ven by this Angel, and ſay, 'tis the ſame that St. <hi>Paul</hi> gave them caution of,
+ſaying, <hi>If an Angel from Heaven preach a<g ref="char:EOLhyphen"/>ny other Doctrine</hi> (than Infallibility) &amp;c.
+<hi>let him be accurs'd.</hi> But what they will ſay to the Holy Ghoſt and Spirit of God, for
+not taking notice of the Prerogative given (as they ſay) by our Saviour to St. <hi>Peter,</hi> I
+cannot imagin, but I ſuppoſe the next General Council thats call'd by his ſuppoſed
+Succeſ<g ref="char:EOLhyphen"/>ſor, ſomething may be done to be even with Him. But to go on. After the Church began
+to increaſe, we read <hi>Acts</hi> the 6. and the 1. verſe, <hi>And in thoſe days, when the
+number of the Diſciples was multiplyed, there aroſe a murmuring of the Grae<g ref="char:EOLhyphen"/>cians againſt the
+Hebrews, becauſe their Widows were neglected in the daily miniſtration.</hi> Now any body would
+think if St. <hi>Peter</hi> had been inveſted with ſuch a Power, &amp;c. none more fit to order
+and appoint Perſons for that buſineſs, becauſe it might have been done with much leſs
+trouble than by aſſem<g ref="char:EOLhyphen"/>bling the Multitude, which was the method they took, as you may read
+verſe the 2. and 3. of that Chapter, <hi>Then</hi> (not St. <hi>Peter,</hi> but) <hi>the
+<hi>Twelve,</hi> called the multitude of the Diſciples unto THEM, and ſaid, It is not reaſon
+that WE ſhould leave the word of God and ſerve tables. Where<g ref="char:EOLhyphen"/>fore Brethren, look ye out among
+you ſeven men of honest report, full of the holy Ghoſt and wiſdom, whom</hi> (pray obſerve)
+<hi>WE may appoint over this buſineſs.</hi> Which was done accordingly, <hi>And when THEY had
+prayed, THEY laid their hands on them,</hi> &amp;c. And in another Cauſe different from this,
+<hi>When the Apoſtles, which were at</hi> Jeruſalem <hi>heard that</hi> Samaria <hi>had
+receiv'd the word of God, THEY ſent unto them</hi> Peter <hi>and</hi> John. Now this me<g ref="char:EOLhyphen"/>thinks
+ſeems very odd for the Chief of the Apoſtles and
+<pb n="25" facs="tcp:99228:15"/> Head of the Church, to be ſent by his Inferiors as it were of an Errand. So
+that it is plain the Apoſtles did not behave themſelves as they ought, or elſe they did not
+believe any ſuch Authority to be plac'd in St. <hi>Peter;</hi> but we do not find only the
+Apoſtles, but the new Converts, contending and chide<g ref="char:EOLhyphen"/>ing (as it were) St. <hi>Peter;</hi> ſo
+that he was forc'd to tell a long Story for his Juſtification, as you may read <hi>Acts</hi> the
+11. from the beginning to the 18. verſe, from which 'tis evident THEY had the ſame opinion of
+his being the Head of the Church then, as we have of his pretended Succeſſors now. But once
+more to make (if poſſible) the Cauſe more plain, in the 15. of the <hi>Acts,</hi> we have an
+account of the firſt Coun<g ref="char:EOLhyphen"/>cil that ever was held in the Chriſtian Church, where were moſt, if
+not all the Apoſtles, and likewiſe the occaſion of it, as you may read ver. the 1. and 2.
+<hi>And certain men which came down from Judea taught the brethren, Except ye be cir<g ref="char:EOLhyphen"/>cumciſed
+after the manner of Moſes ye cannot be ſaved. When therefore Paul and Barnabas had no ſmall
+diſſention and diſpu<g ref="char:EOLhyphen"/>tation with them, they determined Paul and Barnabas, and cer<g ref="char:EOLhyphen"/>tain other
+of them ſhould go up to Jeruſalem unto the Apoſtles and Elders about this queſtion: And the
+Apoſtles and Elders came toge<g ref="char:EOLhyphen"/>ther about this matter.</hi> But in all that account we do not find
+one Syllable of St. <hi>Peter</hi>'s taking Place or exerciſing any Authori<g ref="char:EOLhyphen"/>ty above the reſt
+in this Aſſembly, nor the reſt taking any no<g ref="char:EOLhyphen"/>tice of him in that kind. <hi>But when there had
+been much diſ<g ref="char:EOLhyphen"/>puting, Peter roſe up and ſaid unto them,</hi> &amp;c. verſe the 7. So it
+does not appear that he ſpake firſt to the buſineſs in hand, for there was much
+diſputation before he began to ſpeak to the matter, and ver. the 12. <hi>Then all the
+multitude</hi> (which argues there was a great number) <hi>kept ſilence and gave audi<g ref="char:EOLhyphen"/>ence to
+Barnabas and Paul,</hi> &amp;c. <hi>And after they had held their peace James anſwer'd, and
+ſaid, Men and Brethren harken unto me.</hi> And ſo goes on from the 13 to the 22. verſe of
+that chapter; from which we may obſerve that if any of them was infallible it was St.
+<hi>James;</hi> for they all (as you may obſerve in that Place) ſeem'd to be
+<pb n="26" facs="tcp:99228:16"/> concluded by what he deliver'd; for we do not find that a<g ref="char:EOLhyphen"/>ny contradicted him,
+or ſo much as ſpoke after him. But it follows, <hi>Then pleaſed it the Apoſtles and Elders
+with the whole Church</hi> (which I ſuppoſe was all the Multitude there Aſſem<g ref="char:EOLhyphen"/>bled) <hi>to
+ſend choſen men of their own company to Antioch, with Paul and Barnabas, namely, Judas
+ſurnamed Bar<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>abas, and Silas, chief men among
+the Brethren: And wrote letters by them after this manner, The Apoſtles, and Elders, and Brethren
+ſend greeting unto the Brethren which are of the Gentiles in An<g ref="char:EOLhyphen"/>tioch, and Syria, and Cilicia.
+Forasmuch as we have heard, that certain which went from us, have troubled you with words,
+ſubverting your Souls, ſaying, Ye must be circumciſed, and keep the whole Law, to whom we
+gave no ſuch commandment: It ſeemed good unto <g ref="char:V">Ʋ</g>S, being aſſembled with one accord, to
+ſend choſen men unto you with our beloved Barnabas and Paul,</hi> verſe the 22.23, 24. and
+25. of the ſame 15. of the <hi>Acts.</hi> And we find <hi>Paul and thoſe that were with him, as
+they went through the Cities, deliver them the decrees for to keep, that were ordain'd of the
+Apostles and Elders that were at Jeruſalem, Acts</hi> the 16. and 4. verſe. Which decrees may
+poſſibly riſe up in Judgment againſt ſome body; for if ever any Council was in<g ref="char:EOLhyphen"/>fallible
+this was, and the Decrees they made; yet we do not find in the leaſt manner, neither by St.
+<hi>Peter</hi> nor the reſt of the Apo<g ref="char:EOLhyphen"/>ſtles, any thing of this Infallible Head-ſhip
+pretended to by them, which is a ſtrong Argument there was no ſuch Notion known in their time,
+and that which further confirms me, is that Place of St. <hi>Paul, Galatians</hi> the 2. and 12.
+ver. <hi>But when Pe<g ref="char:EOLhyphen"/>ter was come to Antioch, I withstood him to the face, becauſe he was to be
+blamed.</hi> Now this ſounds very ſtrange, What! the Infalli<g ref="char:EOLhyphen"/>ble Head of the Church, and Prince
+of the Apoſtles, in a fault that deſerv'd ſuch a ſharp Reproof, ſure St. <hi>Paul</hi>
+was in an Error and miſtaken, or elſe the pretended Infallible Suc<g ref="char:EOLhyphen"/>ceſſors of St.
+<hi>Peter</hi> are; for I cannot be perſwaded but if St. <hi>Peter</hi> had been but as
+Infallible as ſome have made themſelves, it was impoſſible for him to do any thing that
+might give occaſion to St. <hi>Paul</hi> to be angry with him, as no doubt but he was, when he
+withſtood him to the face. There is two
+<pb n="27" facs="tcp:99228:16"/> Places more I cannot omit, by reaſon they are much to the pur<g ref="char:EOLhyphen"/>poſe, but I
+will but name them and haſten to a concluſion; for I did not at firſt entrance upon this
+Diſcourſe deſign to have been ſo redious, but the matter being of ſo great Conſequence,
+I judg'd it neceſſary to give you, Sir, as full ſatisfaction as poſſible I could.
+<hi>Corinthians</hi> the 1ſt. chapter the 12. verſe the 28. <hi>And God hath ſet ſome in
+the Church, firſt Apoſtles, ſecondly Prophets, thirdly Teachers;</hi> and ſo on. Now if St.
+<hi>Peter</hi> had been the Head (as our <hi>Romiſh</hi> Friends would perſwade us) why
+ſhould St. <hi>Paul</hi> omit it in this Place? where he ſeems to be ſo exact in
+diſtin<g ref="char:EOLhyphen"/>guiſhing the Orders and Degrees that God had ſet in his Church, by Firſt, Second,
+and Thirdly, &amp;c. but it is evident he knew no<g ref="char:EOLhyphen"/>thing of the matter, for if he had, 'tis but
+reaſon to ſuppoſe he would have given an account of thoſe Orders thus <hi>(viz.)</hi> God
+had ſet ſome in the Church, Firſt St. <hi>Peter</hi> the Head, ſecondly Apoſtles, thirdly
+Prophets, &amp;c. And in the 4th. of the <hi>Epheſians</hi> ver. the 11. much to the ſame
+purpoſe, <hi>And he gave ſome Apoſtles, and ſome Prophets, and ſome Evangeliſts, and
+ſome Pa<g ref="char:EOLhyphen"/>ſtors and Teachers,</hi> but not one word of this Infallible Guide; which to me, and I
+hope all unprejudic'd Perſons, is a ſufficient Proof that no ſuch Power was ever intended by
+our Saviour to St. <hi>Peter,</hi> nor that St. <hi>Peter</hi> did ever own that he had any ſuch
+Authority<g ref="char:punc">▪</g> nor the Apoſtles believe any ſuch matter; which is I think ſufficient for the
+ſecond Inquiry, Whether the Apoſtles did give Place or Preheminence to St. <hi>Peter,</hi> as
+believing him to be the Head of the Church, &amp;c.</p>
+            <p>And now to Conclude, all they ground their Arguments up<g ref="char:EOLhyphen"/>on, are general Conſiderations, That
+there ought to be an In<g ref="char:EOLhyphen"/>fallible Judge, and from thence they would infer our Saviour did
+poſſibly Inſtitute ſuch a one, and the moſt likely Perſon was St. <hi>Peter,</hi> from
+thoſe words of our Saviour, <hi>Thou art Peter, and upon this Rock I will build my Church,</hi>
+&amp;c. But the moſt that this can amount to, is but a favourable Conſtruction of the mat<g ref="char:EOLhyphen"/>ter.
+Now by the ſame Rule 'tis I hope as rational to preſume the contrary, eſpecially from the
+Conſideration of ſo many Places of Scripture as I have here ſet down, which do not favour
+this In<g ref="char:EOLhyphen"/>fallible Doctrine; all which I will draw up to this one ſingle Point</p>
+            <gap reason="missing" extent="1+ pages">
+               <desc>〈1… pages missing〉</desc>
+            </gap>
+         </div>
+      </body>
+   </text>
+</TEI>
